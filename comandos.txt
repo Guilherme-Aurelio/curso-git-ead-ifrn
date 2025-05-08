@@ -15,3 +15,9 @@ git commit -m "Alteração no arquivo texto.txt na main"
 git merge feature-1
 git add .
 git commit -m “Resolvendo o conflito entre main e feature-1”
+git checkout -b add-comandos
+git add .
+git commit -m "Adicionando arquivo de comandos"
+git remote add origin-atividade https://github.com/Guilherme-Aurelio/curso-git-ead-ifrn.git
+git push origin-atividade main
+git push origin-atividade add-comandos
